@@ -1,0 +1,4 @@
+<launch>
+<node name="my_minimal_simulator" pkg="my_minimal_nodes" type="my_minimal_simulator"/>
+<node name="my_minimal_controller" pkg="my_minimal_nodes" type="my_minimal_controller"/>
+</launch>

@@ -1,0 +1,137 @@
+[
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/gmock/src/gmock_main.cc",
+  "file": "/usr/src/gmock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/gtest/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/gtest/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
+  "file": "/usr/src/gtest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/creating_a_ros_library",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"creating_a_ros_library\\\" -I/home/zhoushenshen/catkin_ws/src/creating_a_ros_library/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/ros_library_test_main.dir/src/example_ros_class_test_main.cpp.o -c /home/zhoushenshen/catkin_ws/src/creating_a_ros_library/src/example_ros_class_test_main.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/creating_a_ros_library/src/example_ros_class_test_main.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/creating_a_ros_library",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"creating_a_ros_library\\\" -Dexample_ros_library_EXPORTS -I/home/zhoushenshen/catkin_ws/src/creating_a_ros_library/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIC   -o CMakeFiles/example_ros_library.dir/src/example_ros_class.cpp.o -c /home/zhoushenshen/catkin_ws/src/creating_a_ros_library/src/example_ros_class.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/creating_a_ros_library/src/example_ros_class.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_parameter_server",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_parameter_server\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/read_param_from_node.dir/src/read_param_from_node.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_parameter_server/src/read_param_from_node.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_parameter_server/src/read_param_from_node.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_ros_class",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_class\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/example_ros_class.dir/src/example_ros_class.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_ros_class/src/example_ros_class.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_ros_class/src/example_ros_class.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_ros_msg",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_msg\\\" -I/home/zhoushenshen/catkin_ws/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/vector_subscriber.dir/src/vector_subscriber.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_ros_msg/src/vector_subscriber.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_ros_msg/src/vector_subscriber.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_ros_msg",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_msg\\\" -I/home/zhoushenshen/catkin_ws/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/vector_publisher.dir/src/vector_publisher.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_ros_msg/src/vector_publisher.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_ros_msg/src/vector_publisher.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_ros_msg",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_msg\\\" -I/home/zhoushenshen/catkin_ws/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/example_ros_message_publisher.dir/src/example_ros_message_publisher.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_ros_msg/src/example_ros_message_publisher.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_ros_msg/src/example_ros_message_publisher.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_ros_service",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_service\\\" -I/home/zhoushenshen/catkin_ws/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/example_ros_client.dir/src/example_ros_client.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_ros_service/src/example_ros_client.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_ros_service/src/example_ros_client.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_ros_service",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_service\\\" -I/home/zhoushenshen/catkin_ws/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/example_ros_service.dir/src/example_ros_service.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_ros_service/src/example_ros_service.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_ros_service/src/example_ros_service.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/my_minimal_nodes",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"my_minimal_nodes\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/my_minimal_subscriber.dir/src/minimal_subscriber.cpp.o -c /home/zhoushenshen/catkin_ws/src/my_minimal_nodes/src/minimal_subscriber.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/my_minimal_nodes/src/minimal_subscriber.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/my_minimal_nodes",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"my_minimal_nodes\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/sleepy_minimal_publisher.dir/src/sleepy_minimal_publisher.cpp.o -c /home/zhoushenshen/catkin_ws/src/my_minimal_nodes/src/sleepy_minimal_publisher.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/my_minimal_nodes/src/sleepy_minimal_publisher.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/my_minimal_nodes",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"my_minimal_nodes\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/my_minimal_simulator.dir/src/minimal_simulator.cpp.o -c /home/zhoushenshen/catkin_ws/src/my_minimal_nodes/src/minimal_simulator.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/my_minimal_nodes/src/minimal_simulator.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/my_minimal_nodes",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"my_minimal_nodes\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/my_minimal_controller.dir/src/minimal_controller.cpp.o -c /home/zhoushenshen/catkin_ws/src/my_minimal_nodes/src/minimal_controller.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/my_minimal_nodes/src/minimal_controller.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/my_minimal_nodes",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"my_minimal_nodes\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o -c /home/zhoushenshen/catkin_ws/src/my_minimal_nodes/src/minimal_publisher.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/my_minimal_nodes/src/minimal_publisher.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_action_server",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_action_server\\\" -I/home/zhoushenshen/catkin_ws/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/timer_action_server.dir/src/example_action_server_w_fdbk.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_action_server/src/example_action_server_w_fdbk.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_action_server/src/example_action_server_w_fdbk.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_action_server",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_action_server\\\" -I/home/zhoushenshen/catkin_ws/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/example_action_server.dir/src/example_action_server.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_action_server/src/example_action_server.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_action_server/src/example_action_server.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_action_server",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_action_server\\\" -I/home/zhoushenshen/catkin_ws/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/timer_action_client.dir/src/timer_client.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_action_server/src/timer_client.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_action_server/src/timer_client.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_action_server",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_action_server\\\" -I/home/zhoushenshen/catkin_ws/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/ros_tutorial_server.dir/src/ros_tutorial_server.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_action_server/src/ros_tutorial_server.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_action_server/src/ros_tutorial_server.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/example_action_server",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_action_server\\\" -I/home/zhoushenshen/catkin_ws/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/example_action_client.dir/src/example_action_client.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_action_server/src/example_action_client.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/example_action_server/src/example_action_client.cpp"
+},
+{
+  "directory": "/home/zhoushenshen/catkin_ws/build/using_a_ros_library",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"using_a_ros_library\\\" -I/home/zhoushenshen/catkin_ws/src/creating_a_ros_library/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/ros_library_external_test_main.dir/src/example_ros_class_test_main.cpp.o -c /home/zhoushenshen/catkin_ws/src/using_a_ros_library/src/example_ros_class_test_main.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/using_a_ros_library/src/example_ros_class_test_main.cpp"
+}
+]

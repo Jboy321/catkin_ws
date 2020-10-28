@@ -1,0 +1,2 @@
+set(example_action_server_MESSAGE_FILES "msg/demoAction.msg;msg/demoActionGoal.msg;msg/demoActionResult.msg;msg/demoActionFeedback.msg;msg/demoGoal.msg;msg/demoResult.msg;msg/demoFeedback.msg;msg/FibonacciAction.msg;msg/FibonacciActionGoal.msg;msg/FibonacciActionResult.msg;msg/FibonacciActionFeedback.msg;msg/FibonacciGoal.msg;msg/FibonacciResult.msg;msg/FibonacciFeedback.msg")
+set(example_action_server_SERVICE_FILES "")

@@ -1,0 +1,10 @@
+gains: {d: 3.0, i: 2.0, p: 1.0}
+rosdistro: 'kinetic
+
+  '
+roslaunch:
+  uris: {host_zhoushenshen_thinkpad_x1_carbon_4th__37147: 'http://zhoushenshen-ThinkPad-X1-Carbon-4th:37147/'}
+rosversion: '1.12.14
+
+  '
+run_id: 8348f54c-df9e-11ea-9809-e4a471d80dc9

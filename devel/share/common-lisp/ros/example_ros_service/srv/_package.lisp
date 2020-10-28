@@ -1,0 +1,10 @@
+(cl:defpackage example_ros_service-srv
+  (:use )
+  (:export
+   "EXAMPLESERVICEMSG"
+   "<EXAMPLESERVICEMSG-REQUEST>"
+   "EXAMPLESERVICEMSG-REQUEST"
+   "<EXAMPLESERVICEMSG-RESPONSE>"
+   "EXAMPLESERVICEMSG-RESPONSE"
+  ))
+

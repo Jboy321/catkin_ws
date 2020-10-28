@@ -1,0 +1,8 @@
+prefix=/home/zhoushenshen/catkin_ws/devel
+
+Name: example_action_server
+Description: Description of example_action_server
+Version: 0.0.0
+Cflags: -I/home/zhoushenshen/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs roscpp message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/zhoushenshen/catkin_ws/devel
+
+Name: using_a_ros_library
+Description: Description of using_a_ros_library
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
