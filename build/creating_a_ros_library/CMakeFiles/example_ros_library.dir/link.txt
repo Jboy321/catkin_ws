@@ -1,1 +1,1 @@
-/usr/bin/c++  -fPIC   -shared -Wl,-soname,libexample_ros_library.so -o /home/zhoushenshen/catkin_ws/devel/lib/libexample_ros_library.so CMakeFiles/example_ros_library.dir/src/example_ros_class.cpp.o 
+/usr/bin/c++ -fPIC  -std=c++11 -O2 -fopenmp   -shared -Wl,-soname,libexample_ros_library.so -o /home/zhoushenshen/catkin_ws/devel/lib/libexample_ros_library.so CMakeFiles/example_ros_library.dir/src/example_ros_class.cpp.o 

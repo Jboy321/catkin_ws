@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/zhoushenshen/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/zhoushenshen/catkin_ws/src/creating_a_ros_library/include/**",
+        "/home/zhoushenshen/catkin_ws/src/custom_msgs/include/**",
+        "/home/zhoushenshen/catkin_ws/src/example_action_server/include/**",
+        "/home/zhoushenshen/catkin_ws/src/example_parameter_server/include/**",
+        "/home/zhoushenshen/catkin_ws/src/example_ros_class/include/**",
+        "/home/zhoushenshen/catkin_ws/src/example_ros_msg/include/**",
+        "/home/zhoushenshen/catkin_ws/src/example_ros_service/include/**",
+        "/home/zhoushenshen/catkin_ws/src/my_minimal_nodes/include/**",
+        "/home/zhoushenshen/catkin_ws/src/using_a_ros_library/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

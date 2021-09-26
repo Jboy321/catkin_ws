@@ -2,7 +2,7 @@
 
 message(STATUS "example_ros_msg: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iexample_ros_msg:/home/zhoushenshen/catkin_ws/src/example_ros_msg/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iexample_ros_msg:/home/zhoushenshen/catkin_ws/src/example_ros_msg/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -31,7 +31,7 @@ add_custom_target(_example_ros_msg_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(example_ros_msg
   "/home/zhoushenshen/catkin_ws/src/example_ros_msg/msg/ExampleMessage.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/example_ros_msg
 )
 
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS example_ros_msg_generate_messages_c
 _generate_msg_eus(example_ros_msg
   "/home/zhoushenshen/catkin_ws/src/example_ros_msg/msg/ExampleMessage.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/example_ros_msg
 )
 
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS example_ros_msg_generate_messages_e
 _generate_msg_lisp(example_ros_msg
   "/home/zhoushenshen/catkin_ws/src/example_ros_msg/msg/ExampleMessage.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/example_ros_msg
 )
 
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS example_ros_msg_generate_messages_l
 _generate_msg_nodejs(example_ros_msg
   "/home/zhoushenshen/catkin_ws/src/example_ros_msg/msg/ExampleMessage.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/example_ros_msg
 )
 
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS example_ros_msg_generate_messages_n
 _generate_msg_py(example_ros_msg
   "/home/zhoushenshen/catkin_ws/src/example_ros_msg/msg/ExampleMessage.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/example_ros_msg
 )
 

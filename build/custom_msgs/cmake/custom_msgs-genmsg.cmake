@@ -2,7 +2,7 @@
 
 message(STATUS "custom_msgs: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Icustom_msgs:/home/zhoushenshen/catkin_ws/src/custom_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Icustom_msgs:/home/zhoushenshen/catkin_ws/src/custom_msgs/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)

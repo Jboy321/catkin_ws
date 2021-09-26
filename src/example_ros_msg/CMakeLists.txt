@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   message_generation
+  custom_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -145,7 +146,9 @@ add_executable(vector_subscriber src/vector_subscriber.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(example_ros_message_publisher ${custom_msgs_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(vector_publisher ${custom_msgs_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(vector_subscriber ${custom_msgs_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(example_ros_message_publisher ${catkin_LIBRARIES})

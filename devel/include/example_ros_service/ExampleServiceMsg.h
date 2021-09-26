@@ -57,8 +57,8 @@ struct DataType< ::example_ros_service::ExampleServiceMsg > {
 };
 
 
-// service_traits::MD5Sum< ::example_ros_service::ExampleServiceMsgRequest> should match 
-// service_traits::MD5Sum< ::example_ros_service::ExampleServiceMsg > 
+// service_traits::MD5Sum< ::example_ros_service::ExampleServiceMsgRequest> should match
+// service_traits::MD5Sum< ::example_ros_service::ExampleServiceMsg >
 template<>
 struct MD5Sum< ::example_ros_service::ExampleServiceMsgRequest>
 {
@@ -72,8 +72,8 @@ struct MD5Sum< ::example_ros_service::ExampleServiceMsgRequest>
   }
 };
 
-// service_traits::DataType< ::example_ros_service::ExampleServiceMsgRequest> should match 
-// service_traits::DataType< ::example_ros_service::ExampleServiceMsg > 
+// service_traits::DataType< ::example_ros_service::ExampleServiceMsgRequest> should match
+// service_traits::DataType< ::example_ros_service::ExampleServiceMsg >
 template<>
 struct DataType< ::example_ros_service::ExampleServiceMsgRequest>
 {
@@ -87,8 +87,8 @@ struct DataType< ::example_ros_service::ExampleServiceMsgRequest>
   }
 };
 
-// service_traits::MD5Sum< ::example_ros_service::ExampleServiceMsgResponse> should match 
-// service_traits::MD5Sum< ::example_ros_service::ExampleServiceMsg > 
+// service_traits::MD5Sum< ::example_ros_service::ExampleServiceMsgResponse> should match
+// service_traits::MD5Sum< ::example_ros_service::ExampleServiceMsg >
 template<>
 struct MD5Sum< ::example_ros_service::ExampleServiceMsgResponse>
 {
@@ -102,8 +102,8 @@ struct MD5Sum< ::example_ros_service::ExampleServiceMsgResponse>
   }
 };
 
-// service_traits::DataType< ::example_ros_service::ExampleServiceMsgResponse> should match 
-// service_traits::DataType< ::example_ros_service::ExampleServiceMsg > 
+// service_traits::DataType< ::example_ros_service::ExampleServiceMsgResponse> should match
+// service_traits::DataType< ::example_ros_service::ExampleServiceMsg >
 template<>
 struct DataType< ::example_ros_service::ExampleServiceMsgResponse>
 {

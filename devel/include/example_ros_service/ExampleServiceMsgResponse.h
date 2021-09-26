@@ -76,6 +76,23 @@ ros::message_operations::Printer< ::example_ros_service::ExampleServiceMsgRespon
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::example_ros_service::ExampleServiceMsgResponse_<ContainerAllocator1> & lhs, const ::example_ros_service::ExampleServiceMsgResponse_<ContainerAllocator2> & rhs)
+{
+  return lhs.on_the_list == rhs.on_the_list &&
+    lhs.good_guy == rhs.good_guy &&
+    lhs.age == rhs.age &&
+    lhs.nickname == rhs.nickname;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::example_ros_service::ExampleServiceMsgResponse_<ContainerAllocator1> & lhs, const ::example_ros_service::ExampleServiceMsgResponse_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace example_ros_service
 
 namespace ros
@@ -83,12 +100,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': False}
-// {'std_msgs': ['/opt/ros/kinetic/share/std_msgs/cmake/../msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 
@@ -153,11 +164,11 @@ struct Definition< ::example_ros_service::ExampleServiceMsgResponse_<ContainerAl
 {
   static const char* value()
   {
-    return "bool on_the_list\n\
-bool good_guy\n\
-int32 age\n\
-string nickname\n\
-";
+    return "bool on_the_list\n"
+"bool good_guy\n"
+"int32 age\n"
+"string nickname\n"
+;
   }
 
   static const char* value(const ::example_ros_service::ExampleServiceMsgResponse_<ContainerAllocator>&) { return value(); }
