@@ -1195,6 +1195,19 @@ my_minimal_subscriber/fast:
 .PHONY : my_minimal_subscriber/fast
 
 #=============================================================================
+# Target rules for targets named publisher
+
+# Build rule for target.
+publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 publisher
+.PHONY : publisher
+
+# fast build rule for target.
+publisher/fast:
+	$(MAKE) -f pub_and_sub/CMakeFiles/publisher.dir/build.make pub_and_sub/CMakeFiles/publisher.dir/build
+.PHONY : publisher/fast
+
+#=============================================================================
 # Target rules for targets named ros_tutorial_server
 
 # Build rule for target.
@@ -1832,6 +1845,7 @@ help:
 	@echo "... my_minimal_publisher"
 	@echo "... my_minimal_controller"
 	@echo "... my_minimal_subscriber"
+	@echo "... publisher"
 	@echo "... ros_tutorial_server"
 	@echo "... example_action_client"
 	@echo "... _example_action_server_generate_messages_check_deps_demoGoal"

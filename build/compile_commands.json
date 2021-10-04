@@ -105,6 +105,11 @@
   "file": "/home/zhoushenshen/catkin_ws/src/my_minimal_nodes/src/minimal_subscriber.cpp"
 },
 {
+  "directory": "/home/zhoushenshen/catkin_ws/build/pub_and_sub",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"pub_and_sub\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -std=c++11 -O2 -fopenmp    -o CMakeFiles/publisher.dir/src/publisher.cpp.o -c /home/zhoushenshen/catkin_ws/src/pub_and_sub/src/publisher.cpp",
+  "file": "/home/zhoushenshen/catkin_ws/src/pub_and_sub/src/publisher.cpp"
+},
+{
   "directory": "/home/zhoushenshen/catkin_ws/build/example_action_server",
   "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_action_server\\\" -I/home/zhoushenshen/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -std=c++11 -O2 -fopenmp    -o CMakeFiles/ros_tutorial_server.dir/src/ros_tutorial_server.cpp.o -c /home/zhoushenshen/catkin_ws/src/example_action_server/src/ros_tutorial_server.cpp",
   "file": "/home/zhoushenshen/catkin_ws/src/example_action_server/src/ros_tutorial_server.cpp"

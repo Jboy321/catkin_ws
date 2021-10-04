@@ -59,6 +59,7 @@ my_minimal_nodes/CMakeFiles/my_minimal_subscriber.dir/src/minimal_subscriber.cpp
 my_minimal_nodes/CMakeFiles/my_minimal_subscriber.dir/src/minimal_subscriber.cpp.o: /opt/ros/melodic/include/ros/wall_timer_options.h
 my_minimal_nodes/CMakeFiles/my_minimal_subscriber.dir/src/minimal_subscriber.cpp.o: /opt/ros/melodic/include/rosconsole/macros_generated.h
 my_minimal_nodes/CMakeFiles/my_minimal_subscriber.dir/src/minimal_subscriber.cpp.o: /opt/ros/melodic/include/std_msgs/Float64.h
+my_minimal_nodes/CMakeFiles/my_minimal_subscriber.dir/src/minimal_subscriber.cpp.o: /opt/ros/melodic/include/std_msgs/Int32.h
 my_minimal_nodes/CMakeFiles/my_minimal_subscriber.dir/src/minimal_subscriber.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
 my_minimal_nodes/CMakeFiles/my_minimal_subscriber.dir/src/minimal_subscriber.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
 

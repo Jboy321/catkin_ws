@@ -154,6 +154,14 @@
 /home/zhoushenshen/catkin_ws/build/my_minimal_nodes/CMakeFiles/test.dir
 /home/zhoushenshen/catkin_ws/build/my_minimal_nodes/CMakeFiles/install/strip.dir
 /home/zhoushenshen/catkin_ws/build/my_minimal_nodes/CMakeFiles/my_minimal_subscriber.dir
+/home/zhoushenshen/catkin_ws/build/pub_and_sub/CMakeFiles/install/strip.dir
+/home/zhoushenshen/catkin_ws/build/pub_and_sub/CMakeFiles/install/local.dir
+/home/zhoushenshen/catkin_ws/build/pub_and_sub/CMakeFiles/test.dir
+/home/zhoushenshen/catkin_ws/build/pub_and_sub/CMakeFiles/list_install_components.dir
+/home/zhoushenshen/catkin_ws/build/pub_and_sub/CMakeFiles/publisher.dir
+/home/zhoushenshen/catkin_ws/build/pub_and_sub/CMakeFiles/install.dir
+/home/zhoushenshen/catkin_ws/build/pub_and_sub/CMakeFiles/edit_cache.dir
+/home/zhoushenshen/catkin_ws/build/pub_and_sub/CMakeFiles/rebuild_cache.dir
 /home/zhoushenshen/catkin_ws/build/example_action_server/CMakeFiles/install/local.dir
 /home/zhoushenshen/catkin_ws/build/example_action_server/CMakeFiles/list_install_components.dir
 /home/zhoushenshen/catkin_ws/build/example_action_server/CMakeFiles/ros_tutorial_server.dir

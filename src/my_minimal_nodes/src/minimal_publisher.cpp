@@ -2,13 +2,15 @@
  * @Author: Zhoushenshen
  * @Date: 2021-05-02 14:17:03
  * @LastEditors: Zhoushenshen
- * @LastEditTime: 2021-09-25 22:44:21
+ * @LastEditTime: 2021-09-30 00:00:14
  * @Description: 
- * @Company: idriverplus
- * @Email: zhoushenshen@idriverplus.com
+ * @Company: xxxxxx
+ * @Email: zhoushenshen@todo.com
  */
+
 #include <ros/ros.h>
 #include <std_msgs/Float64.h>
+#include <std_msgs/Int32.h>
 
 #include <iostream>
 #include <thread>
@@ -26,34 +28,39 @@ int main(int argc, char** argv)
 {
     ros::init(argc, argv, "my_minimal_publisher");
     ros::NodeHandle nh;
-    ros::Publisher my_publisher_object = nh.advertise<std_msgs::Float64>("topic1", 1);
+    // ros::Publisher my_publisher_object = nh.advertise<std_msgs::Float64>("topic1", 1);
 
-    std_msgs::Float64 input_float;
-    input_float.data = 0.0;
-    ros::Rate naptime(1.0);
+    // std_msgs::Float64 input_float;
+    // input_float.data = 0.0;
+    // ros::Rate naptime(1.0);
 
-    ros::Timer timer1 = nh.createTimer(ros::Duration(1.0), TimerCallback1);
-    ros::Timer timer2 = nh.createTimer(ros::Duration(1.0), TimerCallback1);
+    // ros::Timer timer1 = nh.createTimer(ros::Duration(1.0), TimerCallback1);
+    // ros::Timer timer2 = nh.createTimer(ros::Duration(1.0), [&](const ros::TimerEvent& event){
+    //     std::lock_guard<std::mutex> locker(cout_mutex);
+    //     std::cout << "TimerCallback2 thread id is " << std::this_thread::get_id() << std::endl;
+    // });     //也可以使用lambda表达式
 
-    int i = 0;
+    // int i = 0;
 
-    ros::MultiThreadedSpinner ms(2);
-    ros::AsyncSpinner as(2);
-    std::cout << "Main thread id is " << std::this_thread::get_id() << std::endl;
-    as.start();
+    // ros::MultiThreadedSpinner ms(2);
+    // ros::AsyncSpinner as(2);
+    // std::cout << "Main thread id is " << std::this_thread::get_id() << std::endl;
+    // as.start();
+    // ros::waitForShutdown();
 
-    while (ros::ok())
-    {
-        naptime.sleep();
-    }
     // while (ros::ok())
     // {
-    //     std::cout << "Main thread id is " << std::this_thread::get_id() << std::endl;
+    //     naptime.sleep();
+    // }
+    //ros::spin();    //没有spin或者spinOnce就不会执行定时器了
+    // while (ros::ok())
+    // {
+    //     // std::cout << "Main thread id is " << std::this_thread::get_id() << std::endl;
     //     //ros::spin(ms);
     //     // my_publisher_object.publish(input_float);
-    //     // i++;
+    //     // // i++;
     //     // input_float.data += 0.1;
-    //     // naptime.sleep();
+    //     naptime.sleep();
     // }
 
     //下面一段代码说明个问题，if中用data1作判断能正常打印到0.9，而用input_float来做判断时竟然能打印到1。
@@ -81,6 +88,21 @@ int main(int argc, char** argv)
     ///犯了致命错误，一般不会拿浮点数做循环判断，因为浮点数没法精确表示0.1/0.01这些，误差原因会导致可能多循环一次
     ///此列中如果用float32数来判断就不会出现多循环一次的问题，所以以后只能拿整数做循环判断。
 
-    
+    ros::Publisher easy_pub1 = nh.advertise<std_msgs::Int32>("easy_topic1", 1, true);
+    ros::Publisher easy_pub2 = nh.advertise<std_msgs::Int32>("easy_topic2", 1, true);
+
+    ros::Rate naptime(1.0);
+
+    std_msgs::Int32 output;
+    output.data = 1;
+
+    while (ros::ok())
+    {
+        easy_pub1.publish(output);
+        easy_pub2.publish(output);
+        std::cout << output.data << std::endl;
+        output.data++;
+        naptime.sleep();
+    }
 
 }

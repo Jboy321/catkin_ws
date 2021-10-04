@@ -432,6 +432,12 @@ my_minimal_nodes_BINARY_DIR:STATIC=/home/zhoushenshen/catkin_ws/build/my_minimal
 //Value Computed by CMake
 my_minimal_nodes_SOURCE_DIR:STATIC=/home/zhoushenshen/catkin_ws/src/my_minimal_nodes
 
+//Value Computed by CMake
+pub_and_sub_BINARY_DIR:STATIC=/home/zhoushenshen/catkin_ws/build/pub_and_sub
+
+//Value Computed by CMake
+pub_and_sub_SOURCE_DIR:STATIC=/home/zhoushenshen/catkin_ws/src/pub_and_sub
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
 
@@ -446,6 +452,9 @@ roscpp_traits_DIR:PATH=/opt/ros/melodic/share/roscpp_traits/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/melodic/share/rosgraph_msgs/cmake
+
+//The directory containing a CMake configuration file for rospy.
+rospy_DIR:PATH=/opt/ros/melodic/share/rospy/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/melodic/share/rostime/cmake
@@ -575,7 +584,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

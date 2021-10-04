@@ -138,6 +138,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/zhoushenshen/catkin_ws/build/example_ros_msg/cmake_install.cmake")
   include("/home/zhoushenshen/catkin_ws/build/example_ros_service/cmake_install.cmake")
   include("/home/zhoushenshen/catkin_ws/build/my_minimal_nodes/cmake_install.cmake")
+  include("/home/zhoushenshen/catkin_ws/build/pub_and_sub/cmake_install.cmake")
   include("/home/zhoushenshen/catkin_ws/build/example_action_server/cmake_install.cmake")
   include("/home/zhoushenshen/catkin_ws/build/using_a_ros_library/cmake_install.cmake")
 

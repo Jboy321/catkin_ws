@@ -1,2 +1,2 @@
-creating_a_ros_library:custom_msgs:example_action_server:example_parameter_server:example_ros_class:example_ros_msg:example_ros_service:my_minimal_nodes:using_a_ros_library
+creating_a_ros_library:custom_msgs:example_action_server:example_parameter_server:example_ros_class:example_ros_msg:example_ros_service:my_minimal_nodes:pub_and_sub:using_a_ros_library
 -DCATKIN_DEVEL_PREFIX=/home/zhoushenshen/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zhoushenshen/catkin_ws/install -G Unix Makefiles
